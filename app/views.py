@@ -36,7 +36,7 @@ def index(id=None):
         todos_table.insert_or_replace(doc=document_to_save)
         return redirect(url_for('index'))
 
-    open_todos_query = {'$select': ['*'], '$orderby' : {'status':'desc'} }
+    open_todos_query = {'$select': ['*'] }
     query_result = todos_table.find( open_todos_query , options=options)
     return render_template('index.html', form = form, tasks = query_result)
 
