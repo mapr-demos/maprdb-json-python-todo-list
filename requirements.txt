@@ -16,7 +16,7 @@ MarkupSafe==1.0
 ojai-python-api==1.0
 pkginfo==1.4.2
 prettytable==0.7.2
-protobuf==3.6.1
+protobuf==4.25.8
 python-dateutil==2.7.3
 requests>=2.20.0
 requests-toolbelt==0.8.0
