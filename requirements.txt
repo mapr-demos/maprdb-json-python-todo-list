@@ -25,6 +25,6 @@ six==1.11.0
 tqdm==4.23.3
 twine==1.11.0
 urllib3>=1.23
-Werkzeug==0.14.1
+Werkzeug==3.1.5
 WTForms==2.2.1
 yolk3k==0.9
